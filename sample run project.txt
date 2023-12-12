@@ -1,0 +1,377 @@
+Sample Run #1 -----------------------------------------------------------------------------------------------------------
+Starting the Appointment Manager System
+Weekly calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? Y
+Enter appointment filename: appointments.csv
+File c:\Users\amanu\OneDrive - Southern Alberta Institute of Technology\Desktop\Python Final Project\Nishchsay\Nishchsay\appointments.csv not found. Re-enter the appointment filename.
+Would you like to load previously scheduled appointments from a file (Y/N)? Y 
+Enter appointment filename: appointments1.csv
+3 previously scheduled appointments have been loaded
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: Thursday
+Enter start hour (24-hour clock): 11
+Client Name: Steven
+Client Phone: 403-600-6000
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type 1 of Appointment: 1
+OK, Steven's appointment is scheduled!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Toosday
+Invalid day. Please enter a valid day.
+Enter day of week: Tuesday
+
+Appointments for Tuesday
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+                                     Tuesday    09:00 - 10:00 Available
+                                     Tuesday    10:00 - 11:00 Available
+                                     Tuesday    11:00 - 12:00 Available
+                                     Tuesday    12:00 - 13:00 Available
+                                     Tuesday    13:00 - 14:00 Available
+                                     Tuesday    14:00 - 15:00 Available
+                                     Tuesday    15:00 - 16:00 Available
+                                     Tuesday    16:00 - 17:00 Available
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Thursday
+
+Appointments for Thursday
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+                                     Thursday   09:00 - 10:00 Available
+                                     Thursday   10:00 - 11:00 Available
+Steven               403-600-6000    Thursday   11:00 - 12:00 Mens Cut
+                                     Thursday   12:00 - 13:00 Available
+Gabriela             368-111-9999    Thursday   13:00 - 14:00 Ladies Colouring
+                                     Thursday   14:00 - 15:00 Available
+                                     Thursday   15:00 - 16:00 Available
+                                     Thursday   16:00 - 17:00 Available
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 2
+
+** Find appointment by name **
+Enter Client Name: ste
+
+Appointments for ste
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+Steven               403-600-6000    Thursday   11:00 - 12:00 Mens Cut
+Stephanie            368-999-1111    Saturday   10:00 - 11:00 Ladies Cut
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 4
+Appointment: saturday 10:00 - 11:00 for Stephanie has been cancelled!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 9
+
+** Exit the system **
+Would you like to save all scheduled appointments to a file (Y/N)? Y
+Enter appointment filename: appointments1.csv
+File already exists. Do you want to overwrite it (Y/N)? N
+Enter appointment filename: appointments2.csv
+3 scheduled appointments have been successfully saved
+Good Bye!
+
+
+SAMPLE RUN 2----------------------------------------------------------------------------------------------------------
+
+Starting the Appointment Manager System
+Weekly calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? n
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: monday
+Enter start hour (24-hour clock): 16
+Client Name: Annabelle
+Client Phone: 403-200-2000
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type 1 of Appointment: 2
+OK, Annabelle's appointment is scheduled!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: monday
+Enter start hour (24-hour clock): 16
+Sorry, that time slot is already booked.
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: fryday
+Enter start hour (24-hour clock): 9
+Invalid day or hour. Please enter valid values.
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: friday
+Enter start hour (24-hour clock): 8
+Sorry, that time slot is not in the weekly calendar!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: friday
+Enter start hour (24-hour clock): 9
+Client Name: Tara
+Client Phone: 587-765-4321
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type 1 of Appointment: 2
+OK, Tara's appointment is scheduled!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 2
+** Find appointment by name **
+Enter Client Name: sara
+
+Appointments for sara
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 2
+
+** Find appointment by name **
+Enter Client Name: Tara
+
+Appointments for Tara
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+Tara                 587-765-4321    Friday     09:00 - 10:00 Ladies Cut
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 4
+
+** Cancel an appointment **
+What day: sunday
+Sorry, Sunday is not available for appointments.
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 4
+
+** Cancel an appointment **
+What day: Friday
+Enter start hour (24-hour clock): 10
+That time slot isn't booked and doesn't need to be cancelled
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 4
+
+** Cancel an appointment **
+What day: Friday
+Enter start hour (24-hour clock): 9
+Appointment: Friday 09:00 - 10:00 for Tara has been cancelled!
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 1
+
+** Schedule an appointment **
+What day: Friday
+Enter start hour (24-hour clock): 9
+Client Name: Tara
+Client Phone: 587-765-4321
+Appointment types
+1: Mens Cut $50, 2: Ladies Cut $80, 3: Mens Colouring $50, 4: Ladies Colouring $120
+Type 1 of Appointment: 5
+Invalid Entry
+Appointment types
+1: Mens Cut, 2: Ladies Cut, 3: Mens Colouring, 4: Ladies Colouring
+Type 1 of Appointment: 4
+OK, Tara's appointment is scheduled!
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Monday
+
+Appointments for Monday
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+                                     Monday     09:00 - 10:00 Available
+                                     Monday     10:00 - 11:00 Available
+                                     Monday     11:00 - 12:00 Available
+                                     Monday     12:00 - 13:00 Available
+                                     Monday     13:00 - 14:00 Available
+                                     Monday     14:00 - 15:00 Available
+                                     Monday     15:00 - 16:00 Available
+Annabelle            403-200-2000    Monday     16:00 - 17:00 Ladies Cut
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Friday
+
+Appointments for Friday
+
+Client Name         Phone          Day       Start     End       Type
+-------------------------------------------------------------------------
+Tara                 587-765-4321    Friday     09:00 - 10:00 Ladies Colouring
+                                     Friday     10:00 - 11:00 Available
+                                     Friday     11:00 - 12:00 Available
+                                     Friday     12:00 - 13:00 Available
+                                     Friday     13:00 - 14:00 Available
+                                     Friday     14:00 - 15:00 Available
+                                     Friday     15:00 - 16:00 Available
+                                     Friday     16:00 - 17:00 Available
+
+Jojo's Hair Salon Appointment Manager
+=====================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 9) Exit the system
+Enter your selection: 9
+
+** Exit the system **
+Would you like to save all scheduled appointments to a file (Y/N)? y
+Enter appointment filename: appointments3.csv
+The file already exists. Do you want to overwrite it? (Y/N): y
+Appointments successfully saved to file: c:\Users\amanu\OneDrive - Southern Alberta Institute of Technology\Desktop\Python Final Project\Nishchsay\Nishchsay\appointments3.csv
+2 scheduled appointments have been successfully saved
+Goodbye!
